@@ -1,0 +1,4 @@
+#!/bin/bash
+docker run --name dbt-pg -p 54321:5432 -e POSTGRES_PASSWORD=abc123 -d postgres:12
+
+# vim: set ft=shell
